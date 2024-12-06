@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  height: 100vh;
+  width: 100%;
+  max-width: 40rem;
+  margin: auto;
+  background-color: rgb(216, 238, 247);
+}
+
+.container {
+  margin: 3rem auto;
+  border-radius: 8px;
+  background-color: rgb(180, 180, 163);
+  color: rgb(54, 54, 36);
+  width: 35rem;
+}
+
+.container form {
+  border: 2px solid rgb(157, 183, 194);
+  border-radius: 8px;
+  box-shadow: 0 4px 30px rgba(95, 149, 185, 0.5);
+}
+
+.input-group {
+  display: flex;
+  margin: 1.5rem;
+  padding: 0.5rem;
+  position: relative;
+}
+
+.input-group label {
+  flex-basis: 25%;
+  font-size: 18px;
+  text-align: center;
+  padding: 0.6rem;
+}
+
+.input-group input,
+.input-group textarea {
+  flex-basis: 68%;
+  background-color: rgb(212, 212, 197);
+  border: none;
+  outline: 0;
+  border-bottom: 1.5px solid gray;
+  border-radius: 10px;
+  font-size: 18px;
+  resize: none;
+  height: 3.8rem;
+}
+
+button {
+  margin: 2rem 15rem;
+  border: none;
+  border-radius: 8px;
+  font-size: large;
+  width: 100%;
+  max-width: 10rem;
+  cursor: pointer;
+  color: whitesmoke;
+  background-color: rgb(83, 102, 44);
+  padding: 0.5rem;
+}
+
+input[placeholder] {
+  text-align: center;
+}
+
+textarea[placeholder] {
+  height: 7rem;
+  text-align: center;
+  padding-top: 2.4rem;
+  font-size: 18px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.input-group span {
+  display: none;
+  color: red;
+  position: absolute;
+  bottom: 1rem;
+  right: 3rem;
+  font-size: 14px;
+}
+
+#submit-error {
+  color: red;
+  text-align: center;
+}
+
+.checkmark {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: seagreen;
+  font-size: 1.2em;
+}
