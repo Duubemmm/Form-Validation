@@ -48,7 +48,9 @@ Open the index.html file in your browser to view the project.
 
 form-validation/
 ├── index.html   # HTML structure
+
 ├── styles.css   # Custom styles
+
 └── main.js      # JavaScript validation logic
 
 # Learnings
