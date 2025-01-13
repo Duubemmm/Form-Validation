@@ -47,11 +47,12 @@ Open the index.html file in your browser to view the project.
 # File Structure
 
 form-validation/
-├── index.html   # HTML structure
 
-├── styles.css   # Custom styles
+├── index.html   **HTML Structure**
 
-└── main.js      # JavaScript validation logic
+├── styles.css   **Custom style**
+
+└── main.js      **JavaScript validation logic**
 
 # Learnings
 Through this project, I:
